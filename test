@@ -24,7 +24,7 @@ if(valid()) {
 
 function valid() {
     return 
-        assert('c' === reviveString("dbac", 3));//&&
+        assert('c' === reviveString("dbac", 3))&&
         assert('c' === reviveString("abc", 6))&& // concatenated substrings: a ab abc b bc c       
         assert('c' === reviveString("dbacssxsa", 3))&& // concatenated substrings: aacbbabaccddbdbadbac
         assert('o' === reviveString("lsedzyxvoigntpeyyzgbptllxcdqvupimvlnuiiktpxmedmefsguorhltmbqgszuqmikvquoftclyoqdjyzxpjklvmbcgcwwpeimxcaexeqysibdgdavmlgjzklfmkedqmpnrrsqvkoqsstyvuvjhesgqgncqtgigxwzpqpkagasywsvqpezvyfleuqwoyfwvdxktoxtuznuvhpnyvmuutfaqxxgveerhbdcrcvockiztanrvbl", 6091))&&
